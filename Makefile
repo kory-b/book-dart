@@ -13,7 +13,7 @@ build:
 	$(GOBUILD) -o $(BINARY_NAME) -v ./cmd/compiler
 
 run:
-	$(GOCMD) run ./cmd/compiler/main.go
+	$(GOCMD) run ./pkg/main.go
 
 test:
 	$(GOTEST) -v ./...
