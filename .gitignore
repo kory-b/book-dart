@@ -57,3 +57,6 @@ Thumbs.db
 
 # Ignore the compiled binary
 compiler
+
+# Data Folder and Files
+data/
