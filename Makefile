@@ -1,5 +1,6 @@
 # Go parameters
 GOCMD=go
+MAIN=src/main.go
 GOBUILD=$(GOCMD) build
 GOCLEAN=$(GOCMD) clean
 GOTEST=$(GOCMD) test
@@ -13,7 +14,7 @@ build:
 	$(GOBUILD) -o $(BINARY_NAME) -v ./cmd/compiler
 
 run:
-	$(GOCMD) run ./src/main.go
+	$(GOCMD) run $(MAIN) -input=$(input)
 
 test:
 	$(GOTEST) -v ./...
