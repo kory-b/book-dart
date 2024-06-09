@@ -1,7 +1,16 @@
 package main
 
-import "fmt"
+import (
+    "fmt"
+    "book-dart/pkg/lexer"
+    "book-dart/pkg/parser"
+)
 
 func main() {
-    fmt.Println("Hello, World!")
+    input := "x = 5"
+    l := lexer.New(input)
+    p := parser.New(l)
+
+    program := p.ParseProgram()
+    fmt.Printf("%+v\n", program)
 }
