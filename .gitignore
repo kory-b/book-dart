@@ -54,3 +54,6 @@ vendor/
 
 # Windows specific files
 Thumbs.db
+
+# Ignore the compiled binary
+compiler
