@@ -1,6 +1,6 @@
 package ast
 
-import "book-dart/pkg/token"
+import "book-dart/src/token"
 
 type Node interface {
     TokenLiteral() string

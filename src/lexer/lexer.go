@@ -1,8 +1,8 @@
 package lexer
 
 import (
-    "book-dart/pkg/token"
-    "unicode"
+	"book-dart/src/token"
+	"unicode"
 )
 
 type Lexer struct {

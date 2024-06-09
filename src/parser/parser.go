@@ -1,10 +1,10 @@
 package parser
 
 import (
-    "fmt"
-    "book-dart/pkg/ast"
-    "book-dart/pkg/lexer"
-    "book-dart/pkg/token"
+	"book-dart/src/ast"
+	"book-dart/src/lexer"
+	"book-dart/src/token"
+	"fmt"
 )
 
 type Parser struct {

@@ -1,10 +1,10 @@
 package codegen
 
 import (
-    "bytes"
-    "fmt"
+	"bytes"
+	"fmt"
 
-    "book-dart/pkg/ast"
+	"book-dart/src/ast"
 )
 
 func GenerateCode(node ast.Node) string {
