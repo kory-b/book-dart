@@ -12,6 +12,8 @@ const (
     EOF     = "EOF"
     IDENT   = "IDENT"
     INT     = "INT"
+    SQUOTE  = "'"
+    DQUOTE  = "\""
     ASSIGN  = "="
     PLUS    = "+"
 )
